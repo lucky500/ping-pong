@@ -1,0 +1,42 @@
+body, html {
+  height: 100%;
+  background-color: #34495e;
+}
+
+form {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper {
+  
+}
+
+.container {
+  height: 100vh;
+  
+}
+
+ul {
+  list-style-type: none;
+  width: 40%;
+}
+
+ul li {
+  width: 95px;
+  height: 95px;
+  background-color: green;
+  border-radius: 50%;
+  float: left;
+}
+
+span {
+  position: relative;
+  top: 36px;
+  left: 25px;
+}
+
+label, .output {
+  color: #ecf0f1;
+}
