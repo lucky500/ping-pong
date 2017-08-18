@@ -34,6 +34,9 @@ function init(){
     var modifiedResult = outputResult.map(function(item){
       return '<li><span>' + item + '</span></li>';
     });
+    $('.rules').hide();
     $('.output').html(modifiedResult.join(""));
+    console.log($('.game-title').text('Try Again!!!'));
+    $('#inputNumber').val('');
   });
 }
