@@ -32,7 +32,7 @@ function init(){
     var userInput = $('#inputNumber').val();   
     var outputResult = pingPong(userInput);
     var modifiedResult = outputResult.map(function(item){
-      return '<li>' + item + '</li>';
+      return '<li><span>' + item + '</span></li>';
     });
     $('.output').html(modifiedResult.join(""));
   });
