@@ -42,13 +42,13 @@ function init(){
     console.log(outputResult);
     var modifiedResult = outputResult.map(function(item){
       if(item === "pingpong"){
-        return '<li class="ball"><span class="pingpong">' + item + '</span></li>'
+        return '<li style="display:none" class="ball"><span class="pingpong">' + item + '</span></li>'
       } else if(item === "pong") {
-        return '<li class="ball"><span class="pong">' + item + '</span></li>'
+        return '<li style="display:none" class="ball"><span class="pong">' + item + '</span></li>'
       } else if(item === "ping") {
-        return '<li class="ball"><span class="ping">' + item + '</span></li>'
+        return '<li style="display:none" class="ball"><span class="ping">' + item + '</span></li>'
       } else {
-        return '<li class="ball"><span class="number">' + item + '</span></li>'
+        return '<li style="display:none" class="ball"><span class="number">' + item + '</span></li>'
       }
     });
     $('.rules').hide();
