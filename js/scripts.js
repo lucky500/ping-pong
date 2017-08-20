@@ -23,6 +23,14 @@ function pingPong(userInput){
   return result;
 }
 
+//Trying D3js
+function start(){
+  var liString;
+  d3.select("body")
+    .append("ul")
+    .text("tring it out")
+}
+
 
 //User Interface logic
 $(document).ready(init);
@@ -36,7 +44,7 @@ function init(){
     });
     $('.rules').hide();
     $('.output').html(modifiedResult.join(""));
-    console.log($('.game-title').text('Try Again!!!'));
+    $('.game-title').text('Try Again!!!');
     $('#inputNumber').val('');
   });
 }
